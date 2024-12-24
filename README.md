@@ -1,6 +1,6 @@
-# FollowerBot-Headless (GUI Mode)
+# FollowerBot (Headless Mode)
 
-A Java-based Selenium automation bot designed to automate the signup process for the MavenX platform using a **GUI browser**. This allows for better debugging and monitoring of the automation process as you can visually see the browser's actions.
+A Java-based Selenium automation bot designed to automate the signup process for the MavenX platform using a **headless browser**. This enables the bot to run efficiently without rendering the browser UI, ideal for background tasks or CI/CD pipelines.
 
 ---
 
@@ -8,7 +8,7 @@ A Java-based Selenium automation bot designed to automate the signup process for
 
 - Automates the signup process on the MavenX platform.
 - Dynamically generates unique email addresses and usernames.
-- Runs in **GUI mode** to allow visual observation of actions.
+- Runs in **headless mode** for efficient, non-UI-based automation.
 - Utilizes Selenium WebDriver for interacting with web elements.
 - Handles dynamic web elements with explicit waits.
 
